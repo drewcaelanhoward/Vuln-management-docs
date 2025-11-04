@@ -1,6 +1,5 @@
 <#
-.SYNOPSIS
-    This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
+This Powershell script ensures that the account lockout duration is set to 15 minutes or greater. 
 
 .NOTES
     Author          : Drew Howard
@@ -21,7 +20,7 @@
 .USAGE
     Put any usage instructions here.
     Example syntax:
-    PS C:\> .\__remediation_template(STIG-ID-WN10-AU-000500).ps1 
+    PS C:\> .\__remediation_template(STIG-ID-WN10-AC-000005).ps1 
 #>
 
 # YOUR CODE GOES HERE
